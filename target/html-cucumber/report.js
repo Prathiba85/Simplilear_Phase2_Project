@@ -196,12 +196,80 @@ formatter.examples({
     },
     {
       "cells": [
+        "standard_user",
+        "1234",
+        "Epic sadface: Username and password do not match any user in this service"
+      ]
+    },
+    {
+      "cells": [
         "locked_out_user",
         "secret_sauce",
         "Epic sadface: Sorry, this user has been locked out."
       ]
     }
   ]
+});
+formatter.scenario({
+  "name": "Login Success Scenario using parameters",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I have launched the application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "step_definition.LoginStepDefinition.i_have_launched_the_application()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter username as \"standard_user\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "step_definition.LoginStepDefinition.i_enter_username_as(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter password as \"1234\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definition.LoginStepDefinition.i_enter_password_as(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on login",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definition.LoginStepDefinition.click_on_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should get error message \"Epic sadface: Username and password do not match any user in this service\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "step_definition.LoginStepDefinition.i_should_get_error_message(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Login Success Scenario using parameters",
