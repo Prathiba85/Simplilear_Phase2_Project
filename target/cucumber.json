@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6307224600,
+              "duration": 5580496100,
               "status": "passed"
             },
             "line": 3,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 83757200,
+              "duration": 72331600,
               "status": "passed"
             },
             "line": 4,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 48093600,
+              "duration": 50952100,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 63696700,
+              "duration": 64218100,
               "status": "passed"
             },
             "line": 6,
@@ -72,11 +72,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-05-21T07:09:56.866Z",
+        "start_timestamp": "2023-05-21T07:56:15.312Z",
         "before": [
           {
             "result": {
-              "duration": 1187715200,
+              "duration": 1174661700,
               "status": "passed"
             },
             "match": {
@@ -91,7 +91,7 @@
         "after": [
           {
             "result": {
-              "duration": 297227100,
+              "duration": 297049800,
               "status": "passed"
             },
             "match": {
@@ -104,15 +104,15 @@
         "steps": [
           {
             "result": {
-              "duration": 44374700,
+              "duration": 15068800,
               "status": "passed"
             },
             "line": 10,
-            "name": "I click Add to cart in \"Sauce Labs BackPack\"",
+            "name": "I click Add to cart in \"Sauce Labs Backpack\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Sauce Labs BackPack\"",
+                  "val": "\"Sauce Labs Backpack\"",
                   "offset": 23
                 }
               ],
@@ -122,19 +122,25 @@
           },
           {
             "result": {
-              "duration": 41435300,
+              "duration": 3041238100,
               "status": "passed"
             },
             "line": 11,
-            "name": "I click add to cart",
+            "name": "I click add to cart for product \"Sauce Labs Backpack\"",
             "match": {
-              "location": "step_definition.Add_Cart.i_click_add_to_cart()"
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 32
+                }
+              ],
+              "location": "step_definition.Add_Cart.i_click_add_to_cart_for_product(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 23659700,
+              "duration": 21934900,
               "status": "passed"
             },
             "line": 12,
@@ -164,11 +170,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-05-21T07:10:05.006Z",
+        "start_timestamp": "2023-05-21T07:56:25.665Z",
         "before": [
           {
             "result": {
-              "duration": 840346200,
+              "duration": 835836400,
               "status": "passed"
             },
             "match": {
@@ -183,7 +189,7 @@
         "after": [
           {
             "result": {
-              "duration": 312379000,
+              "duration": 267446600,
               "status": "passed"
             },
             "match": {
@@ -196,7 +202,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5559202000,
+              "duration": 5574854900,
               "status": "passed"
             },
             "line": 4,
@@ -208,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 79894200,
+              "duration": 68875900,
               "status": "passed"
             },
             "line": 5,
@@ -226,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 46035900,
+              "duration": 45854100,
               "status": "passed"
             },
             "line": 6,
@@ -244,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 66893400,
+              "duration": 66949600,
               "status": "passed"
             },
             "line": 7,
@@ -256,7 +262,7 @@
           },
           {
             "result": {
-              "duration": 3986900,
+              "duration": 4982800,
               "status": "passed"
             },
             "line": 8,
@@ -269,11 +275,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-05-21T07:10:11.924Z",
+        "start_timestamp": "2023-05-21T07:56:32.536Z",
         "before": [
           {
             "result": {
-              "duration": 802781800,
+              "duration": 856401500,
               "status": "passed"
             },
             "match": {
@@ -288,7 +294,7 @@
         "after": [
           {
             "result": {
-              "duration": 344431000,
+              "duration": 291947700,
               "status": "passed"
             },
             "match": {
@@ -301,7 +307,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5550220700,
+              "duration": 5551231600,
               "status": "passed"
             },
             "line": 11,
@@ -313,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 74169800,
+              "duration": 70259900,
               "status": "passed"
             },
             "line": 12,
@@ -331,7 +337,7 @@
           },
           {
             "result": {
-              "duration": 41332300,
+              "duration": 42185800,
               "status": "passed"
             },
             "line": 13,
@@ -349,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 42275000,
+              "duration": 44640100,
               "status": "passed"
             },
             "line": 14,
@@ -361,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 5035862800,
+              "duration": 5042731100,
               "status": "passed"
             },
             "line": 15,
@@ -380,11 +386,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-05-21T07:10:23.819Z",
+        "start_timestamp": "2023-05-21T07:56:44.439Z",
         "before": [
           {
             "result": {
-              "duration": 869426800,
+              "duration": 763788800,
               "status": "passed"
             },
             "match": {
@@ -399,7 +405,7 @@
         "after": [
           {
             "result": {
-              "duration": 339870000,
+              "duration": 308832800,
               "status": "passed"
             },
             "match": {
@@ -412,7 +418,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5547894700,
+              "duration": 5520271400,
               "status": "passed"
             },
             "line": 11,
@@ -424,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 73168600,
+              "duration": 82100500,
               "status": "passed"
             },
             "line": 12,
@@ -442,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 44532300,
+              "duration": 49197400,
               "status": "passed"
             },
             "line": 13,
@@ -460,7 +466,7 @@
           },
           {
             "result": {
-              "duration": 42077300,
+              "duration": 43490900,
               "status": "passed"
             },
             "line": 14,
@@ -472,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 5064672400,
+              "duration": 5048034100,
               "status": "passed"
             },
             "line": 15,

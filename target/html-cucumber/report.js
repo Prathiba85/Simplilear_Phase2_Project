@@ -58,7 +58,7 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "I click Add to cart in \"Sauce Labs BackPack\"",
+  "name": "I click Add to cart in \"Sauce Labs Backpack\"",
   "keyword": "When "
 });
 formatter.match({
@@ -68,11 +68,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click add to cart",
+  "name": "I click add to cart for product \"Sauce Labs Backpack\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "step_definition.Add_Cart.i_click_add_to_cart()"
+  "location": "step_definition.Add_Cart.i_click_add_to_cart_for_product(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
